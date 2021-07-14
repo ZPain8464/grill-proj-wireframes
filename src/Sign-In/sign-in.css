@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Libre Baskerville", sans-serif;
 }
 body {
   padding: 0;
@@ -24,15 +25,16 @@ main {
   text-align: center;
 }
 
-/* Got to make this form responsive for mobile; temporary dimensions */
-
 .form_container {
-  width: 70%;
+  max-width: 25%;
   margin: 0 auto;
   border: 1px solid grey;
   background-color: lightgrey;
+  text-align: left;
 }
 
 form {
   padding: 10px;
+  display: inline-block;
+  width: 100px;
 }
