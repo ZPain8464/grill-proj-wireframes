@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  border: grey 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 30px;
+}
+
+header,
+main {
+  text-align: center;
+}
+
+main {
+  width: 35%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  border-radius: 10px;
+  background-color: #80808040;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  main {
+    width: 70%;
+  }
+}

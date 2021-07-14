@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  border: grey 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 30px;
+}
+
+main {
+  text-align: center;
+}
+
+/* Got to make this form responsive for mobile; temporary dimensions */
+
+.form_container {
+  width: 70%;
+  margin: 0 auto;
+  border: 1px solid grey;
+  background-color: lightgrey;
+}
+
+form {
+  padding: 10px;
+}
