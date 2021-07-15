@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", sans-serif;
+  color: #26252a;
+  text-align: center;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  padding-bottom: 35px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #8d9d56;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  padding: 30px;
+}
+
+#map {
+  height: 100%;
+}
+
+footer {
+  height: 25px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #486267;
+  color: white !important;
+}
