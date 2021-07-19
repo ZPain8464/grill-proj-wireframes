@@ -12,6 +12,8 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script src="map-functions.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -24,56 +26,21 @@
       </ul>
     </nav>
     <section>
-      <div id="map">
-        <h1>Grill Locations</h1>
-        <img
-          src="https://maps.googleapis.com/maps/api/staticmap?center=30.2352,-97.7827&zoom=17&size=600x600&key=AIzaSyAT_KIpDHhbPkLthYuDhK61gRXYYJWvvNs"
-        />
-      </div>
+      <h1>Grill Locations</h1>
+      <div id="map"></div>
     </section>
     <main>
       <h2>Reserve a grill:</h2>
       <div class="grills_list">
-        <h3>Grill #1</h3>
-        <form>
-          <label>Date: </label>
-          <input type="date" />
-          <label>Time:</label>
-          <input type="time" />
-          <button>Reserve</button>
-        </form>
-        <h3>Grill #2</h3>
-        <form>
-          <label>Date: </label>
-          <input type="date" />
-          <label>Time:</label>
-          <input type="time" />
-          <button>Reserve</button>
-        </form>
-        <h3>Grill #3</h3>
-        <form>
-          <label>Date: </label>
-          <input type="date" />
-          <label>Time:</label>
-          <input type="time" />
-          <button>Reserve</button>
-        </form>
-        <h3>Grill #4</h3>
-        <form>
-          <label>Date: </label>
-          <input type="date" />
-          <label>Time:</label>
-          <input type="time" />
-          <button>Reserve</button>
-        </form>
-        <h3>Grill #5</h3>
-        <form>
-          <label>Date: </label>
-          <input type="date" />
-          <label>Time:</label>
-          <input type="time" />
-          <button>Reserve</button>
-        </form>
+        <h3>Grill #1 <span>></span></h3>
+
+        <h3>Grill #2 <span>></span></h3>
+
+        <h3>Grill #3 <span>></span></h3>
+
+        <h3>Grill #4 <span>></span></h3>
+
+        <h3>Grill #5 <span>></span></h3>
       </div>
     </main>
     <footer>Zachary Painter</footer>
